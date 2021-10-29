@@ -19,7 +19,7 @@ function doPlay() {
         setTimeout(() => {
             document.head.appendChild(part[i - 1])
             bar.value = (i * 5).toString();
-        }, 1000 * i);
+        }, 800 * i);
 
     }
 }
