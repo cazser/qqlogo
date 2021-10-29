@@ -1,4 +1,5 @@
     #qq {
+        position: relative;
         width: 420 px;
         height: 400 px;
         margin: 0 auto;
@@ -600,5 +601,10 @@ px
         -moz-transform: rotate(45deg) rotateY(180deg);
         -o-transform: rotate(45deg) rotateY(180deg);
         transform: rotate(45deg) rotateY(180deg);
-        left: 264px;
+        left: 260px;
+    }
+    
+    .line {
+        width: 10%;
+        border: 1px solid red;
     }

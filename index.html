@@ -106,15 +106,41 @@
                 <div class="toe right"></div>
             </div>
         </div>
+
     </div>
+    <button class="play">播放</button>
+    <progress class="status" value="30" max="100"></progress>
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        *::after,
+        *::before {
+            box-sizing: boder-box;
+        }
+        
         #content {
-            width: 450px;
-            height: 450px;
-            position: relative;
             border: 1px solid orange;
+            position: relative;
+            width: 440px;
+            height: 440px;
+        }
+        
+        .play {
+            background: white;
+            border-radius: 4px;
+            padding: 8px;
+            margin: 0;
+        }
+        
+        .status {
+            width: 390px;
         }
     </style>
+    <script src="./main.js"></script>
 </body>
 
 
