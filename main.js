@@ -17,7 +17,7 @@ function doPlay() {
         part[i - 1].rel = "stylesheet"
         part[i - 1].href = `./css/step${i}.css`
         setTimeout(() => {
-            document.head.appendChild(part)
+            document.head.appendChild(part[i - 1])
             bar.value = (i * 5).toString();
         }, 1000 * i);
 
