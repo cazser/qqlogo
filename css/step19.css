@@ -1,0 +1,43 @@
+  .rightFootTopWrapper {
+      position: absolute;
+      width: 134px;
+      top: 22px;
+      left: 134px;
+      height: 36px;
+      overflow: hidden;
+      z-index: 2;
+  }
+  
+  .rightFootTop {
+      position: absolute;
+      width: 120px;
+      height: 60px;
+      border: 4px solid black;
+      background: #FF9C00;
+      border-top-right-radius: 32% 65%;
+      top: 0px;
+      left: 4px;
+  }
+  
+  .rightFootBottomWrapper {
+      position: absolute;
+      width: 134px;
+      top: 52px;
+      left: 134px;
+      height: 38px;
+      overflow: hidden;
+  }
+  
+  .rightFootBottom {
+      position: absolute;
+      width: 120px;
+      height: 60px;
+      border: 4px solid #000;
+      background: #FF9C00;
+      border-top-left-radius: 50% 56%;
+      border-top-right-radius: 50% 56%;
+      border-bottom-left-radius: 50% 44%;
+      border-bottom-right-radius: 50% 44%;
+      top: -30px;
+      left: 3px;
+  }

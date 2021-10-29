@@ -1,0 +1,18 @@
+ .left.eye {
+     left: 62px;
+     top: 50px;
+ }
+ 
+ .eyelipLeftTop,
+ .eyelipRightTop {
+     top: -2px;
+     left: -2px;
+     display: none;
+ }
+ 
+ .eyelipLeftBottom,
+ .eyelipRightBottom {
+     bottom: -2px;
+     left: -2px;
+     display: none;
+ }

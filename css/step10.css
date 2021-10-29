@@ -1,0 +1,19 @@
+  .outterWrapper {
+      width: 262px;
+      left: 32px;
+      height: 250px;
+      position: absolute;
+      top: 54px;
+      overflow: hidden;
+  }
+  
+  .outter {
+      border: 1px solid #000;
+      width: 260px;
+      height: 250px;
+      border-radius: 125px;
+      position: absolute;
+      top: -84px;
+      z-index: 3;
+      background: #000;
+  }

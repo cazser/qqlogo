@@ -1,0 +1,19 @@
+  .toe {
+      position: absolute;
+      border-top: 4px solid black;
+      width: 25px;
+      height: 20px;
+      top: 50px;
+      left: 2px;
+      border-top-right-radius: 30px 30px;
+      border-top-left-radius: 10px 10px;
+      -webkit-transform-origin: top left;
+      -moz-transform-origin: top left;
+      -o-transform-origin: top left;
+      transform-origin: top left;
+      z-index: 10;
+      -webkit-transform: rotate( -45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+  }

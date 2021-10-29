@@ -1,0 +1,7 @@
+  .toe.right {
+      -webkit-transform: rotate( 45deg) rotateY( 180deg);
+      -moz-transform: rotate(45deg) rotateY(180deg);
+      -o-transform: rotate(45deg) rotateY(180deg);
+      transform: rotate(45deg) rotateY(180deg);
+      left: 260px;
+  }

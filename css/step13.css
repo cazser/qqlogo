@@ -1,0 +1,33 @@
+  .handWrapper {
+      position: absolute;
+      top: 219px;
+      left: 7px;
+  }
+  
+  .leftHandTopContainer {
+      width: 118px;
+      height: 26px;
+      position: absolute;
+      z-index: 1;
+      top: 55px;
+      left: 50px;
+      -webkit-transform-origin: bottom left;
+      -webkit-transform: rotate( -70deg);
+      -moz-transform-origin: bottom left;
+      -moz-transform: rotate(-70deg);
+      -o-transform-origin: bottom left;
+      -o-transform: rotate(-70deg);
+      transform-origin: bottom left;
+      transform: rotate(-70deg);
+      overflow: hidden;
+  }
+  
+  .leftHandTop {
+      width: 128px;
+      height: 54px;
+      border: 1px solid #050346;
+      position: absolute;
+      border-top-left-radius: 44% 38px;
+      border-top-right-radius: 56% 33px;
+      background: #000;
+  }

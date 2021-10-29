@@ -1,0 +1,50 @@
+ .right.eye {
+     left: 123px;
+     top: 50px;
+ }
+ 
+ .innerRightEye {
+     position: absolute;
+     width: 18px;
+     height: 20px;
+     top: 20px;
+     left: 8px;
+     border-top-left-radius: 50% 90%;
+     border-top-right-radius: 50% 90%;
+     border-bottom-left-radius: 50% 10%;
+     border-bottom-right-radius: 50% 10%;
+     background: black;
+     box-shadow: 0 -1px 2px black;
+ }
+ 
+ .innerRightEye:after {
+     content: "";
+     position: absolute;
+     width: 10px;
+     height: 13px;
+     bottom: -1px;
+     left: 4px;
+     border-top-left-radius: 50% 100%;
+     border-top-right-radius: 35% 80%;
+     background: white;
+ }
+ 
+ .fix {
+     position: absolute;
+     width: 4px;
+     height: 4px;
+     border-radius: 50%;
+     background: black;
+     top: 17px;
+ }
+ 
+ .fix:after {
+     content: "";
+     position: absolute;
+     width: 4px;
+     height: 4px;
+     border-radius: 50%;
+     background: black;
+     top: 0;
+     left: 14px;
+ }

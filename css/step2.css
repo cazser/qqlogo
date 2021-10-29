@@ -1,0 +1,14 @@
+ .head {
+     position: absolute;
+     top: 18px;
+     left: 96px;
+     width: 234px;
+     height: 185px;
+     border: 1px solid #000;
+     border-top-left-radius: 117px 117px;
+     border-top-right-radius: 117px 117px;
+     border-bottom-left-radius: 117px 68px;
+     border-bottom-right-radius: 117px 68px;
+     z-index: 10;
+     background-color: #000;
+ }

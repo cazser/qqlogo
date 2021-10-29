@@ -1,0 +1,20 @@
+   .innerWrapper {
+       position: absolute;
+       overflow: hidden;
+       width: 280px;
+       height: 200px;
+       left: 30px;
+       top: 76px;
+   }
+   
+   .inner {
+       border: 1px solid #000;
+       width: 218px;
+       position: absolute;
+       height: 210px;
+       border-radius: 50%;
+       left: 25px;
+       top: -71px;
+       z-index: 4;
+       background: #fff;
+   }

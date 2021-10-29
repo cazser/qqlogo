@@ -603,8 +603,3 @@ px
         transform: rotate(45deg) rotateY(180deg);
         left: 260px;
     }
-    
-    .line {
-        width: 10%;
-        border: 1px solid red;
-    }

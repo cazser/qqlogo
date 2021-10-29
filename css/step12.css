@@ -1,0 +1,32 @@
+  .scarfEnd {
+      position: absolute;
+      width: 52px;
+      height: 64px;
+      z-index: 4;
+      top: 90px;
+      border: 3px solid black;
+      left: 74px;
+      border-bottom-left-radius: 50% 43%;
+      border-bottom-right-radius: 15px;
+      border-top-left-radius: 20% 57%;
+      background: #FB0009;
+  }
+  
+  .scarfEndShadow {
+      position: absolute;
+      border-top: 6px solid black;
+      width: 20px;
+      height: 20px;
+      top: 6px;
+      left: 12px;
+      border-top-left-radius: 30px 30px;
+      -webkit-transform-origin: top right;
+      -moz-transform-origin: top right;
+      -o-transform-origin: top right;
+      transform-origin: top right;
+      z-index: 10;
+      -webkit-transform: skewX( 4deg) scaleY(1.5) rotate( -60deg);
+      -moz-transform: skewX(4deg) scaleY(1.5) rotate(-60deg);
+      -o-transform: skewX(4deg) scaleY(1.5) rotate(-60deg);
+      transform: skewX(4deg) scaleY(1.5) rotate(-60deg);
+  }

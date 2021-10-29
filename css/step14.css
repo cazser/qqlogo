@@ -1,0 +1,29 @@
+  .leftHandBottomContainer {
+      width: 115px;
+      height: 30px;
+      position: absolute;
+      z-index: 1;
+      top: 78px;
+      left: 50px;
+      -webkit-transform-origin: top left;
+      -webkit-transform: rotate( -70deg);
+      -moz-transform-origin: top left;
+      -moz-transform: rotate(-70deg);
+      -o-transform-origin: top left;
+      -o-transform: rotate(-70deg);
+      transform-origin: top left;
+      transform: rotate(-70deg);
+      overflow: hidden;
+  }
+  
+  .leftHandBottom {
+      width: 128px;
+      height: 44px;
+      border: 1px solid #050346;
+      background: #000;
+      border-top: none;
+      position: absolute;
+      border-bottom-left-radius: 48% 20px;
+      border-bottom-right-radius: 52% 23px;
+      top: -26px;
+  }

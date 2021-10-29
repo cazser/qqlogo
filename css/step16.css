@@ -1,0 +1,26 @@
+  .footWrapper {
+      position: absolute;
+      top: 292px;
+      left: 80px;
+  }
+  
+  .leftFootTopWrapper {
+      position: absolute;
+      width: 130px;
+      top: 16px;
+      left: -1px;
+      height: 37px;
+      overflow: hidden;
+      z-index: 2;
+  }
+  
+  .leftFootTop {
+      position: absolute;
+      width: 120px;
+      height: 60px;
+      border: 4px solid black;
+      background: #FF9C00;
+      border-top-left-radius: 80% 70%;
+      top: -10px;
+      left: 3px;
+  }

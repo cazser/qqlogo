@@ -1,0 +1,8 @@
+ .eye {
+     width: 44px;
+     height: 66px;
+     border: 1px solid #000;
+     border-radius: 50% 50%;
+     position: absolute;
+     background: #fff;
+ }
