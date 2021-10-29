@@ -15,7 +15,11 @@ function doPlay() {
         let part = document.createElement("link");
         part.rel = "stylesheet"
         part.href = `./css/step${i}.css`
-        setTimeout(() => { document.head.appendChild(part) }, 1000 * i);
+        setTimeout(() => {
+            document.head.appendChild(part)
+            bar.value = (i * 5).toString();
+        }, 1000 * i);
+
     }
 }
 
