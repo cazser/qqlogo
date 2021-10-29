@@ -15,7 +15,7 @@ function doPlay() {
         let part = document.createElement("link");
         part.rel = "stylesheet"
         part.href = `./css/step${i}.css`
-        document.head.appendChild(part)
+        setTimeout(() => { document.head.appendChild(part) }, 1000 * i);
     }
 }
 
