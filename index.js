@@ -618,7 +618,7 @@ playButton.addEventListener("click", () => {
             if (n <= length) {
                 code.textContent = csscode.slice(0, n);
                 paddingCode.innerHTML = csscode.slice(0, n);
-                n += 2;
+                n += 3;
             } else {
                 window.clearInterval(intevalId)
             }
