@@ -608,7 +608,19 @@ px
 `
 const code = document.querySelector('.code')
 const paddingCode = document.querySelector('.paddingCode')
+const length = csscode.length;
+let n = 0;
 playButton.addEventListener("click", () => {
     let link = document.querySelector("head>link")
     link.remove();
+    let intevalId =
+        setInterval(() => {
+            if (n <= length) {
+                code.textContent = csscode.slice(0, n);
+                paddingCode.innerHTML = csscode.slice(0, n);
+                n++;
+            } else {
+                window.clearInterval(intevalId)
+            }
+        }, 10);
 })
