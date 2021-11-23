@@ -610,8 +610,8 @@ const code = document.querySelector('.code')
 const paddingCode = document.querySelector('.paddingCode')
 const length = csscode.length;
 let n = 0;
+let link = document.querySelector("head>link")
 playButton.addEventListener("click", () => {
-    let link = document.querySelector("head>link")
     link.remove();
     let intevalId =
         setInterval(() => {
@@ -621,6 +621,7 @@ playButton.addEventListener("click", () => {
                 n += 3;
             } else {
                 window.clearInterval(intevalId)
+                document.head.appendChild(link)
             }
         }, 1);
 })
