@@ -622,5 +622,5 @@ playButton.addEventListener("click", () => {
             } else {
                 window.clearInterval(intevalId)
             }
-        }, 10);
+        }, 1);
 })
